@@ -16,7 +16,7 @@ find_package(ecl_command_line REQUIRED)
 # pkg-config packages
 find_package(PkgConfig)
 pkg_search_module(libusb REQUIRED libusb-1.0)
-pkg_search_module(libftdi REQUIRED libftdi)
+pkg_search_module(libftdi REQUIRED libftdi1)
 
 ##############################################################################
 # Platform Configuration
